@@ -1,4 +1,4 @@
-sudo apt-get install curl git-core build-essential libsqlite3-dev libbz2-dev libreadline-dev libssl-dev zlib1g-dev
+sudo apt-get install screen curl git-core build-essential libsqlite3-dev libbz2-dev libreadline-dev libssl-dev zlib1g-dev
 
 sudo mkdir -p /opt/SickGear/data
 sudo chown $USER -R /opt/SickGear
