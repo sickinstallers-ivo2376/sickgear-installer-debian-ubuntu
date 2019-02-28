@@ -35,7 +35,7 @@ sudo /opt/SickGear/.pyenv/versions/2.7.13/bin/pip install -r requirements.txt
 #alternatively just start with start-sickgear.sh cmd
 echo "/opt/SickGear/.pyenv/versions/2.7.13/bin/python2 /opt/SickGear/app/sickgear.py --datadir=/opt/SickGear/data" >> /opt/SickGear/start-sickgear.sh
 #first edit config.ini to reflect port u need
-sudo gedit /opt/SickGear/data/config.ini
+#sudo nano /opt/SickGear/data/config.ini
 sudo chown $USER:$USER -Rf /opt/SickGear
 cd /opt/SickGear
 sudo chmod +x start-sickgear.sh
