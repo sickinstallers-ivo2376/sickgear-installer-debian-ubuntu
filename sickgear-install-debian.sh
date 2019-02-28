@@ -38,7 +38,7 @@ echo "/opt/SickGear/.pyenv/versions/2.7.13/bin/python2 /opt/SickGear/app/sickgea
 sudo gedit /opt/SickGear/data/config.ini
 sudo chown $USER:$USER -Rf /opt/SickGear
 cd /opt/SickGear
-chmod +x start-sickgear.sh
+sudo chmod +x start-sickgear.sh
 screen ./start-sickgear.sh
 
 
